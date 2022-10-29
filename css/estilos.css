@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Condensed';
+}
+header{
+    width: 1200px;
+    margin: auto;
+}
+.parteizq{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.parteizq p{
+    border: 1px lightgray solid;
+    padding: 10px 30px;
+}
+.parteizq picture{
+    border: 1px lightgray solid;
+}
+.parteizq picture img{
+    width: 100%;
+    height: 100%;
+}
+.parteder{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.meroarriba{
+    width: 1000px;
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menulogo figure{
+    width: 100px;
+}
+.menulogo figure img{
+    width: 100%;
+}
+.menu menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 20px;
+}
+.menu menu p{
+    font-weight: bold;
+}
+.buscadorcuadro{
+    width: 150px;
+    padding: 10px 30px;
+    color: gray;
+    border: 1px lightgray solid;
+}
+.menu{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.lineagris{
+    margin: auto;
+    width: 1200px;
+    height: 75px;
+    border: 1px gray solid;
+    background-color: lightgray;
+}
+.fotos{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.fotos figure img{
+    width: 100%;
+    height: 100%;
+}
+.publi{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.publi h2{
+    margin-bottom: 10px;
+}
+.publi p{
+    margin-bottom: 20px;
+}
+.boton{
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+.deportista{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.banner img{
+    width: 450px;
+}
+.banner2 img{
+    width: 748px;
+}
+.catalogo{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.fondo{
+    background-image: url("/img/calltoaction.jpg");
+    color: white;
+    width: 1200px;
+    height: 451px;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.contenedor{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.botonesBlancos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.botonesBlancos p{
+    color: black;
+    background-color: white;
+}
+footer{
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+footer p{
+    margin-bottom: 20px;
+}
+footer div{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+    header{
+        width: 480px;
+        margin-bottom: 20px;
+    }
+    .meroarriba{
+        width: 480px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+    }
+    .parteizq{
+        border: 1px green solid;
+        width: 480px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+    }
+    .parteizq p{
+        border: 1px lightgray solid;
+        width: 100%;
+        text-align: center;
+    }
+    .parteizq picture{
+        border: 1px lightgray solid;
+        width: 100%;
+        text-align: center;
+    }
+    .parteizq picture img{
+        width: 10%;
+        height: 10%;
+    }
+    .parteder{
+        width: 480px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .ayuda{
+        border: 1px lightgray solid;
+        padding: 10px 10px;
+    }
+    .parteder picture{
+        border: 1px lightgray solid;
+        padding: 10px 10px;
+    }
+    .menulogo figure{
+        width: 100px;
+    }
+    .menulogo figure img{
+        width: 100%;
+    }
+    .menu menu{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap:10px;
+    }
+    .menu menu p{
+        font-weight: bold;
+    }
+    .buscadorcuadro{
+        width: 150px;
+        padding: 10px 30px;
+        color: gray;
+        border: 1px lightgray solid;
+    }
+    .menu{
+        width: 480px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+    menu p{
+        padding: 10px 0px;
+        width: 100%;
+        background-color: lightgray;
+        border: 1px gray solid;
+        text-align: center;
+    }
+    .lineagris{
+        width: 480px;
+        margin: auto;
+    }
+    .fotos{
+        width: 480px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    .publi{
+        width: 480px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .deportista{
+        width: 480px;
+    }
+    .banner img{
+        width: 480px;
+    }
+    .banner2{
+        display: none;
+    }
+    .catalogo{
+        width: 480px;
+    }
+    .botones{
+        flex-direction: column;
+    }
+    .fondo{
+        width: 480px;
+        background-position: center, center;
+    }
+    .contenedor{
+        width: 400px;
+    }
+    .contenedor h2{
+        width: 350px;
+        font-size: 45px;
+    }
+    .texto{
+        width: 350px;
+    }
+    .botonesBlancos{
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        gap: 30px;
+    }
+    .botonesBlancos p{
+        color: black;
+        background-color: white;
+    }
+    footer{
+        width: 480px;
+    }
+}
